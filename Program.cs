@@ -8,8 +8,7 @@ namespace virtual_machine
     {
         static void Main(string[] args)
         {
-            Console.Write("input the total memory");
-            var input = Console.ReadLine();
+            var totalMem = 20;
             var foregroundApps = new List<Dictionary<int, int>>();
             var backgroundApps = new List<Dictionary<int, int>>();
             var outputApps = new List<Dictionary<int, int>>();
