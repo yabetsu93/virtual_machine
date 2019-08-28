@@ -8,9 +8,13 @@ namespace virtual_machine
     {
         static void Main(string[] args)
         {
+            // Total memory
             var totalMem = 20;
+            // foreground apps
             var foregroundApps = new List<Dictionary<int, int>>();
+            // background apps
             var backgroundApps = new List<Dictionary<int, int>>();
+            // output app (ID, Memory)
             var outputApps = new List<Dictionary<int, int>>();
 
             // foreground apps
@@ -31,7 +35,7 @@ namespace virtual_machine
                     var foregound = foregroundApps[i];
                     var background = backgroundApps[x];
 
-            
+                    
                 }
             }
         }
