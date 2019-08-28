@@ -1,0 +1,5 @@
+#ignore the following files
+
+.vscode
+bin/
+obj/
